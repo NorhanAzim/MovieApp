@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.azim_pc.movieapp.MainActivity">
+    <item
+        android:id="@+id/menu_popular"
+        android:title="@string/Popular_string"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_most_likely"
+        android:title="@string/Top_rated_string"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/Favorites"
+        android:title="@string/Favorites"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        />
+
+</menu>
